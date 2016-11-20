@@ -1,0 +1,7 @@
+{
+  "extends": "nodejs-recommended",
+  "rules": {
+    "lodash/prefer-lodash-method": [2, {"ignoreObjects": ["Promise", "Challenge"]}],
+    "no-magic-numbers": 0,
+  }
+}
